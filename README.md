@@ -1,7 +1,6 @@
 # Zoom Automation
-<hr>
 A python script that automatically joins a zoom meeting based on your timetable.
-<hr>
+
 <ol>
 <li>Checks the "timings.xlsx" file to look for meetings that are going to start.</li>
 <li>As soon as the current time matches any meeting time it opens the Zoom Desktop application.</li>
@@ -10,7 +9,7 @@ A python script that automatically joins a zoom meeting based on your timetable.
 </ol>
 
 ## Prerequisites
-<hr>
+
 <ol>
 <li>Zoom app must be installed in your system.</li>
 <li>Meeting time for the day along with Meeting ID and passcode must be entered manually into the "timings.xlsx"</li>
@@ -18,7 +17,7 @@ A python script that automatically joins a zoom meeting based on your timetable.
 </ol>
 
 ## Behind the scenes
-<hr>
+
 <ol>
 <li>An infinite loop keeps checking the current time of the system using "datetime.now" funtion.</li>
 <li>The zoom app is opened using "os.startfile()" funtion as soon as current time matches the time mentioned in "timings.xlsx".</li>
