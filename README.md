@@ -26,3 +26,8 @@ A python script that automatically joins a zoom meeting based on your timetable.
 <li>"pyautogui.click()" performs a click operation.</li>
 <li>The meeting Id and Passcode are entered using the "pyautogui.write()" command.</li>
 </ol>
+
+## License & Copyright
+
+© 2020 <b>Sunil Aleti</b><br>
+Licensed under <a href="https://github.com/aletisunil/Automating_Zoom/blob/master/LICENSE">MIT License</a>
